@@ -6,13 +6,20 @@
 
     <title>WebLanding</title>
     <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
-    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
-    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
-    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bubblegum+Sans&family=Raleway:wght@900&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bubblegum+Sans&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
 
+    <link rel="stylesheet" href="vendors/css/grid.css">
 </head>
 
 <body>
@@ -25,15 +32,92 @@
             <li> <a href="#">Products</a> </li>
             <li> <a href="#">Contact</a> </li>
         </ul>
+        <div class="clearfix"></div>
         <div class="row">
-            <h1 class="heading-main-text">Music is invigorating... <br> isn't it?</h1>
-            <a href="#" class="btn">Tell me more</a>
-            <a href="#" class="btn">Join us</a>
+            <div class="heading-main-box">
+                <h1 id="line1">WITHOUT</h1>
+                <h1 id="line2">MUSIC</h1>
+                <h1 id="line3">LIFE WOULD</h1>
+                <h1 id="line4" class="glitched">Bb</h1>
+                <a href="#" class="btn1">Tell me more</a>
+                <a href="#" class="btn1">Join us</a>
+            </div>
         </div>
     </header>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet amet magni eligendi perferendis dignissimos saepe numquam velit molestias eius temporibus nisi, ut excepturi. Architecto, natus sint dignissimos cum voluptatem est soluta? Libero repellat minus magnam repellendus veniam dolore, incidunt rem nemo ea quam dolorem expedita odit voluptatum deserunt animi hic saepe aliquam, obcaecati possimus voluptas? Id necessitatibus laudantium ipsum repudiandae porro ea aliquid magnam illum repellendus dicta, sint aut tempora reprehenderit perferendis recusandae unde eligendi ab asperiores, veniam provident doloremque. Labore itaque incidunt dolor ut! Rerum accusantium voluptates non necessitatibus neque debitis perferendis, soluta eveniet autem magnam, eligendi eaque sit!
-    
 
+    <section class="abo$ut-section">
+        <div class="row">
+            <h2>About us</h2>
+            <p class="p-long">
+                Our team is made up of award-winning marketers, designers, and developers, and we know what it takes to
+                get real results online. We also keep the focus on the metrics that mean the most, like leads and
+                revenue generated. We know that hitting these goals is what moves businesses forward, and we believe
+                that our clients' success is the best measure of our own performance.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-4 about-picture">
+                <img src="./resources/image/little-idea.jpg" alt="little-idea">
+                <p class="picture-title">little-idea</p>
+            </div>
+
+            <div class="col span-1-of-4 about-picture">
+                <img src="./resources/image/cute.jpg" alt="cute">
+                <p class="picture-title">cute</p>
+            </div>
+
+            <div class="col span-1-of-4 about-picture">
+                <img src="./resources/image/clear-day.jpg" alt="clear-day">
+                <p class="picture-title">clear-day</p>
+            </div>
+
+            <div class="col span-1-of-4 about-picture">
+                <img src="./resources/image/buddy.jpg" alt="buddy">
+                <p class="picture-title">buddy</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="products-section">
+        <h2>Products</h2>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <div class="product-box">
+                    <h3>Prounciation class</h3>
+                    <p class="product-price">19$ <span>/ month</span></p>
+                    <ul>
+                        <li><i class="fas fa-check small-icon"></i>Native voices</li>
+                        <li><i class="fas fa-check small-icon"></i>Master IPA</li>
+                    </ul>
+                    <a href="#" class="btn">JOIN US</a>
+                </div>
+            </div>
+
+            <div class="col span-1-of-3">
+                <div class="product-box">
+                    <h3>Speaking class</h3>
+                    <p class="product-price">25$ <span>/ month</span></p>
+                    <ul>
+                        <li><i class="fas fa-check small-icon"></i>Native speaking</li>
+                        <li><i class="fas fa-check small-icon"></i>Speaking natural</li>
+                    </ul>
+                    <a href="#" class="btn">JOIN US</a>
+                </div>
+            </div>
+
+            <div class="col span-1-of-3">
+                <div class="product-box">
+                    <h3>Listening class</h3>
+                    <p class="product-price">25$ <span>/ month</span></p>
+                    <ul>
+                        <li><i class="fas fa-check small-icon"></i>Native speech</li>
+                        <li><i class="fas fa-check small-icon"></i>hearing English clearly</li>
+                    </ul>
+                    <a href="#" class="btn">JOIN US</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 
