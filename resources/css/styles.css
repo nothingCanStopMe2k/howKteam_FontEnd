@@ -287,3 +287,88 @@ h1#line4{
 .product-box .btn{
     margin-left: 20%;
 }
+
+/* ----------------------------------- */
+/* --------testimonials section-------------- */
+/* ----------------------------------- */
+
+.testimonials-section{
+    background-image:linear-gradient(45deg,rgba(2, 33, 64, 0.8) 40%, rgba(45, 95, 93, 0.85)) ,url(../image/background4.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.testimonials-section h2{
+    margin-bottom: 70px;
+}
+
+blockquote {
+    position: relative;
+    width: 95%;
+    font-style: italic;
+    line-height: 140%;
+    color: #fff;
+}
+
+cite {
+    display: block;
+    color: #92b3d3;
+    margin-top: 25px;
+}
+
+blockquote::before{
+    content: '\00bb';
+    display: block;
+    font-size: 400%;
+    position: absolute;
+    top: -50px;
+    left: -30px
+}
+
+
+cite img{
+    height: 50px;
+    border-radius: 50%;
+    border: 2px soild #265077;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
+/* ----------------------------------- */
+/* --------Sponsors section-------------- */
+/* ----------------------------------- */
+
+.sponsors-section{
+    background-color: #f4f4f4;
+}
+
+.image-sponsors img{
+    margin-top: 40px;
+    height: 120px;
+    margin-left: 30%; 
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.image-sponsors img:hover{
+    transform: scale(1.2);
+   
+}
+
+.sponsors{
+    font-weight: 900;
+    font-size: 120%;
+    color: #263077;
+    margin-top: 7px;
+    font-size: 120%;
+    text-align: center;
+    font-style:normal;
+    margin-left: -8%;
+    cursor: pointer;
+}
+/* ----------------------------------- */
+/* --------Footer section-------------- */
+/* ----------------------------------- */
