@@ -15,6 +15,11 @@ html{
     text-rendering: optimizeLegibility;
 
 }
+
+body {
+    overflow-x: hidden;
+}
+
 /* ------------------------------------ */
 /* -----------Reusable compomnent------ */
 /* ------------------------------------ */
@@ -182,7 +187,6 @@ h1#line1{
 h1#line2{
     transform: translate(6%, -15%);
     font-size: 110px;
-
 }
 h1#line3{
     transform: translate(-5%, -70%);
@@ -379,17 +383,6 @@ cite img{
     background-attachment: fixed;
 }
 
-/* ----------------------------------- */
-/* --------Footer section-------------- */
-/* ----------------------------------- */
-
-footer{
-    text-align: center;
-    background-color: rgb(71, 70, 70);
-    color: #fff;
-    padding: 20px;
-}
-
 .infomation{
     list-style: none;
     color: #fff;
@@ -486,3 +479,15 @@ input[type=submit]{
     border-radius: 5px;
     margin: 40px auto; 
 }
+
+/* ----------------------------------- */
+/* --------Footer section-------------- */
+/* ----------------------------------- */
+
+footer{
+    text-align: center;
+    background-color: rgb(71, 70, 70);
+    color: #fff;
+    padding: 20px;
+}
+
