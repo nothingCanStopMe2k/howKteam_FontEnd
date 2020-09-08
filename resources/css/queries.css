@@ -1,5 +1,5 @@
 /* Big tablet to 1200px */
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 2048px){
     html{
         font-size: 16px;
     }
@@ -13,6 +13,15 @@
 
     .infomation {
         margin-left: -10%;
+    }
+    .sticky .logo {
+        margin-top: 6px;
+        width: 60PX;
+        height: 65px;
+    }
+
+    .mobile-nav-icon{
+        visibility: hidden;
     }
 }
 
@@ -62,14 +71,20 @@
 @media only screen and (max-width: 767px){
     .col{
         width: 100%;
-        /* position: relative;
-        left: 15%; */
     }
     .main-nav{
-        visibility: hidden;
+        display: none;
+        background:#1e4258;
+        margin-top: 0;
+      
     }
+
+    .main-nav li a{
+        color: orangered;
+    }
+
     .logo{
-        width: 45px;
+        width: 55px;
     }
     .heading-main-box{
         transform: translate(-20%,-50%);
@@ -158,9 +173,17 @@
         top: 10px;
     }
 
-}
+    .sticky .logo {
+        margin-top: 13px;
+        width: 55PX;
+        height: 55px;
+    }
 
-  
+    .mobile-nav-icon{
+        visibility: visible;
+    }
+
+} 
 
 /* Small phone from 0 to 480px */
 @media only screen and (max-width: 480px){
@@ -197,4 +220,19 @@
     form .row:last-child .btn{
         width: 50%;
     }
+
+    .logo {
+        margin-top: 30px;
+        width: 45px;
+        height: 45px;
+    }
+    .sticky .logo{
+        width: 45px;
+        height: 45px;
+    }
+
+    .sticky {
+        height: 70px;
+    }
+
 }

@@ -114,7 +114,7 @@ header{
     
     background-image:linear-gradient(45deg,rgba(2, 33, 64, 0.8) 40%, rgba(45, 95, 93, 0.85))  ,url("../image/background3.jpg");
     background-size: center;
-   
+    
     background-position: right;
     
     height: 100vh;
@@ -235,11 +235,23 @@ h1#line4{
 }
 
 .sticky .logo{
-    width: 100px;
+    width: 50px;
     height: 60px;
-    margin-top: 1%;
+    margin-top: 2.5%;
+}
+
+/* --------mobile-navigation-icon------ */
+.mobile-nav-icon {
+    color: #6d95bd;
+    font-size: 200%;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+
+.sticky .mobile-nav-icon {
     
-    
+    top: 25px;
 }
 
 /* ----------------------------------- */
